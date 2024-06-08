@@ -1,0 +1,47 @@
+.del{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family:  "Lugrasimo", cursive;
+}
+.edit{
+    color: white;
+    background-color: rgb(41, 41, 220);
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family:  "Lugrasimo", cursive;
+}
+
+.del:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+.edit:hover{
+    color: rgb(41, 41, 220);
+    background-color: white;
+    border: 2px solid rgb(41, 41, 220);
+}
+
+.tra{
+    transition: 0.1s;
+}
+
+.fruit-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+.fruit-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
